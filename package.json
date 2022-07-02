@@ -1,0 +1,11 @@
+{
+  "name": "how-long",
+  "version": "1.0.0",
+  "description": "use github api to query the last commit date for students to complete challenges",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
