@@ -2,10 +2,24 @@
   "name": "how-long",
   "version": "1.0.0",
   "description": "use github api to query the last commit date for students to complete challenges",
-  "main": "index.js",
+  "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node src/index.ts"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@types/superagent": "^4.1.15",
+    "dotenv": "^16.0.2",
+    "superagent": "^8.0.0",
+    "superagent-graphql": "^0.1.2",
+    "ts-node": "^10.8.2"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
 }
